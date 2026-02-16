@@ -7,3 +7,9 @@ plus.addEventListener("click", (e)=>{
     count++
     counter.textContent = count
 })
+
+minu.addEventListener("click", (e)=>{
+    let count = Number(counter.textContent)
+    count--
+    counter.textContent = count
+})
